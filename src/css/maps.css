@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url('../assets/fonts/Valorant.ttf') format('truetype');
+}
+
+.map-card-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.map-card {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(25% - 40px);
+    max-width: calc(25% - 40px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.map-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.map-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.map-card h2 {
+    font-family: "Valorant";
+    font-size: 24px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #000000;
+}

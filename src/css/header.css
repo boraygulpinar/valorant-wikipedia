@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url('../assets/fonts/Valorant.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat.ttf') format('truetype');
+}
+
+.header {
+    background-color: #fff;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-text {
+    font-family: 'Valorant';
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.route-text {
+    font-family: "Montserrat";
+    font-size: 36px;
+    color: red;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.route-text:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.route-text.active {
+    background-color: red;
+    color: #fff
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: red;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin-right: 20px;
+    padding-left: 30px;
+}
